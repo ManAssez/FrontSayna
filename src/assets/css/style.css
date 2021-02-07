@@ -1,0 +1,49 @@
+.btn-round {
+    border-width: 1px;
+    border-radius: 30px !important;
+    padding-top: 5px !important;
+  }
+
+  .btn-icon {
+  height: 2.375rem;
+  min-width: 2.375rem;
+  width: 2.375rem;
+  padding: 0;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  position: relative;
+  line-height: normal;
+}
+
+
+.cardColor{
+    background-color: white !important;
+}
+
+  .profile-image a:before {
+    left: 0;
+    -webkit-animation: pulsate 1.6s ease-out;
+            animation: pulsate 1.6s ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  
+  .profile-image img {
+    z-index: 9999;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+  
+  .profile-image a:hover img {
+    -webkit-transform: scale(1.06, 1.06);
+            transform: scale(1.06, 1.06);
+  }
+  
+  .profile-image a:hover:before {
+    -webkit-animation: none;
+            animation: none;
+  }
+  .classScale{
+    background-color: indianred !important;
+    text-align: center;
+  }
